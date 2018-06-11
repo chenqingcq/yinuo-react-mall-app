@@ -1,0 +1,27 @@
+{
+    "env": {
+        "test": {
+            "ftp": {
+                "host": "",
+                "port": 22,
+                "user":"www",
+                "pass":"",
+                "remotePath": "/home/www/dev.xsili.net/project/test/yinuo-merchant-admin"
+            },
+            "domain":""
+        },
+        "dist": {
+            "ftp":{
+                "host": "",
+                "port": 22,
+                "user":"www",
+                "pass":"",
+                "remotePath": "/home/www/dev.xsili.net/project/qa/yinuo-merchant-admin"
+            },
+            "domain": ""
+        }
+    },
+    "projectName": "yinuo-memberadmin",
+    "entryFile": "html/index.html",
+    "port": 3001
+}

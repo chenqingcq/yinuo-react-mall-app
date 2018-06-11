@@ -1,0 +1,109 @@
+.optional {
+  color: rgba(0, 0, 0, 0.45);
+  font-style: normal;
+}
+.title {
+  position: relative;
+  padding-left: 10px;
+  font-size: 16px;
+  // border-bottom: 1px solid #e5e5e5;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 3px;
+    height: 15px;
+    background-color: #108ee9;
+    transform: translateY(-50%);
+  }
+}
+
+.bannerList{
+  margin-top: 20px;
+}
+
+.pic{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .mask{
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 9;
+  }
+
+  .icon{
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+  }
+}
+
+// seo关键词列表
+.seoList{
+  position: relative;
+  .seoItem{
+    display: inline-block;
+    position: relative;
+    // width: 100px;
+    padding: 0 20px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-right: 10px;
+    span{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
+  .mask{
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 9;
+  }
+
+  .icon{
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+  }
+}
